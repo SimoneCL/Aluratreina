@@ -1,0 +1,10 @@
+Marque apenas as opções que declaram um array corretamente em TypeScript, assumindo que a configuração noImplicitAny está definida com o valor true:
+
+Alternativa correta
+let nomes: string[] = [];
+
+Correto! É uma declaração mais sucinta de:
+
+let nomes: Array<string> = [];
+Alternativa correta
+let idades: Array<Number> = [1, 2, 3];
